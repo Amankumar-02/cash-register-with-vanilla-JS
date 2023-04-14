@@ -1,0 +1,67 @@
+*{margin: 0;
+padding: 0;}
+:root{
+    --dark-green : #064E3B;
+    --faint-green: #A7F3D0;
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+    width: 50vw;
+    background-color: #64748b;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-color: var(--dark-green);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* height: 80vh; */
+}
+h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+p{
+    padding-bottom: 2rem;
+    font-size: large;
+}
+.bill-amount, .cash-given, .change-return{
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--faint-green);
+    font-size: larger;
+}
+#bill-amount, #cash-given{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+#check-btn, #next-btn{
+    width: 100px;
+    margin: 1rem auto;
+    background-color: #A7F3D0;
+    padding: .5rem; 
+    font-size: large;
+}
+.output table, th, td{
+    padding: 0.2rem;
+    color: var(--dark-green);
+    background-color:var(--faint-green);
+    border: 2px solid var(--dark-green) ;
+    border-collapse: collapse;
+}
+.noOfNotes{
+    background-color:white;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,td{
+    word-wrap: break-word;
+}
