@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,14 @@
     <title>Cash Register</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1 class="heading">
             Cash Register Manager
         </h1>
-        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to
+            return.</p>
         <div class="bill-amount">
             <label for="bill-amount">Bill Amount:</label>
             <input id="bill-amount" type="number"></input>
@@ -23,36 +26,39 @@
             </label>
             <input id="cash-given" type="number">
             </input>
-            <button id="check-btn">Check</button>
+            <button id="check-btn">Check
+            </button>
+            <p id="error-message"></p>
         </div>
-        <div class="changere-turn">
+        <div class="change-return">
             <p>Return Change:</p>
             <div class="output">
                 <table>
                     <tr>
-                    <th>No.of Notes</td>
-                    <td class="noOfNotes"></td>
-                    <td class="noOfNotes"></td>
-                    <td class="noOfNotes"></td>
-                    <td class="noOfNotes"></td>
-                    <td class="noOfNotes"></td>
-                    <td class="noOfNotes"></td>
-                    <td class="noOfNotes"></td>
-                </tr>
+                        <th>No.of Notes</td>
+                        <td class="no-Of-Notes"></td>
+                        <td class="no-Of-Notes"></td>
+                        <td class="no-Of-Notes"></td>
+                        <td class="no-Of-Notes"></td>
+                        <td class="no-Of-Notes"></td>
+                        <td class="no-Of-Notes"></td>
+                        <td class="no-Of-Notes"></td>
+                    </tr>
                     <tr>
                         <th>Note</td>
-                            <td>2000</td>
-                            <td>500</td>
-                            <td>100</td>
-                            <td>20</td>
-                            <td>10</td>
-                            <td>5</td>
-                            <td>1</td>
-                        </tr>
-                    </table>
-                </div>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 </body>
 <script src="/script.js"></script>
+
 </html>
